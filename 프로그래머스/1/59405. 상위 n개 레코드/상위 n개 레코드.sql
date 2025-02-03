@@ -1,0 +1,4 @@
+SELECT name
+FROM animal_ins
+ORDER BY datetime ASC
+FETCH FIRST 1 ROW ONLY;
